@@ -2,8 +2,31 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: arial;
 }
 
 html, body {
     height: 100vh;
+}
+
+body {
+    background-color: #F8ECD1;
+    color: #85586F;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 8vh;
+    ul {
+        width: 30%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        li {
+            list-style-type: none;
+            font-weight: 900;
+        }
+    }
 }
