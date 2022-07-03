@@ -1,0 +1,24 @@
+@import './_base.scss';
+
+.container[data-page="contacts"] {
+    .top {
+        @include header-and-hero;
+    }
+    
+    .bot {
+        position: relative;
+        bottom: 8rem;
+        .contacts {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            .item {
+                width: 500px;
+                min-height: 400px;
+                border-radius: 15px;
+                background-color: $secondary-color;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            }
+        }
+    }
+}

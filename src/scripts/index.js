@@ -2,9 +2,9 @@ import {generateNavbar, clearChildren} from './base.js';
 import generateHome from './home.js';
 import generateMenu from './menu.js';
 import generateAbout from './about.js';
+import generateContact from './contact.js';
 
-import "../styles/about.scss";
-
+import "../styles/contact.scss";
 
 const container = document.getElementById("container");
 const navbar = generateNavbar();
@@ -20,7 +20,7 @@ navItems.forEach(item => {
         if(item.id === "navHome") generateHome(container, navbar);
         else if(item.id === "navMenu") generateMenu(container, navbar);
         else if(item.id === "navAbout") generateAbout(container, navbar);
-        else if(item.id === "navContact") ;
+        else if(item.id === "navContact") generateContact(container, navbar);
     })
 });
 

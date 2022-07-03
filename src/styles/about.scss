@@ -3,24 +3,7 @@
 .container[data-page="about"] {
 
     .top {
-        > h1 {
-            @include header-style;
-        }
-
-        .hero {
-            min-height: 60vh;
-            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
-            h1 {
-                font-family: "Meow Script";
-                text-align: center;
-                font-size: 4rem;
-                background-color: $outline-color;
-
-                position: relative;
-                top: 35vh;
-            }
-        }
+        @include header-and-hero;
     }
 
     .bot {
