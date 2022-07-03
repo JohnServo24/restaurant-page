@@ -1,1 +1,48 @@
 @import "./_base.scss";
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100%;
+
+    .left {
+        background-color: white;
+        flex-grow: 1;
+
+        .title {
+            background-color: $outline-color;
+            position: relative;
+            top: 20vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 1.2rem;
+
+            p {
+                font-size: 4rem;
+                font-family: 'Meow Script', cursive;
+            }
+        }
+    }
+
+    .right {
+        flex-basis: 30%;
+        .text {
+            position: relative;
+            top: 14vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 3rem;
+
+            :first-child {
+                font-weight: 900;
+                font-size: 1.5rem;
+                padding-bottom: 1rem;
+            }
+        }
+    }
+}

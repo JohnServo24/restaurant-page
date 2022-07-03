@@ -30,6 +30,7 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
+    "file-loader": "^6.2.0",
     "watch": "^0.13.0"
   }
 }

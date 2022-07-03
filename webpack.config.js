@@ -2,10 +2,11 @@ const path = require('path');
 const HtmlWebpackplugin = require('html-webpack-plugin');
 
 module.exports = {
-    entry: './src/index.js',
+    entry: './src/scripts/index.js',
     output: {
         filename: 'main.js',
         path: path.resolve(__dirname, 'dist'),
+        assetModuleFilename: '[name][ext]',
     },
     mode: 'development',
     module: {
@@ -18,6 +19,10 @@ module.exports = {
                     'sass-loader',
                 ]
             },
+            {
+                test:/\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource'
+            }
         ]
     },
     devtool: 'source-map',
@@ -34,7 +39,7 @@ module.exports = {
         new HtmlWebpackplugin({
             title: 'Restaurant Page',
             filename: 'index.html',
-            template: './src/template.html',
+            template: './src/pages/template.html',
         })
     ]
 }

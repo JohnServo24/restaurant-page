@@ -2,9 +2,9 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss":
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/home.scss":
 /*!***********************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/home.scss ***!
   \***********************************************************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -20,8 +20,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Meow+Script&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "", "",{"version":3,"sources":[],"names":[],"mappings":"","sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container {\n  display: flex;\n  flex-wrap: wrap;\n  min-height: 100%;\n}\n.container .left {\n  background-color: white;\n  flex-grow: 1;\n}\n.container .left .title {\n  background-color: rgba(238, 238, 238, 0.7);\n  position: relative;\n  top: 20vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 1.2rem;\n}\n.container .left .title p {\n  font-size: 4rem;\n  font-family: \"Meow Script\", cursive;\n}\n.container .right {\n  flex-basis: 30%;\n}\n.container .right .text {\n  position: relative;\n  top: 14vh;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 3rem;\n}\n.container .right .text :first-child {\n  font-weight: 900;\n  font-size: 1.5rem;\n  padding-bottom: 1rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/home.scss"],"names":[],"mappings":"AAOA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACLJ;;ADQA;EACI,aAAA;ACLJ;;ADQA;EACI,yBAhBY;EAiBZ,cAhBS;ACWb;;ADQA;EACI,aAAA;EACA,eAAA;ACLJ;ADMI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACJR;ADMQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACLZ;;AA9BA;EACI,aAAA;EACA,eAAA;EACA,gBAAA;AAiCJ;AA/BI;EACI,uBAAA;EACA,YAAA;AAiCR;AA/BQ;EACI,0CDPI;ECQJ,kBAAA;EACA,SAAA;EAEA,aAAA;EACA,uBAAA;EACA,mBAAA;EAEA,eAAA;AA+BZ;AA7BY;EACI,eAAA;EACA,mCAAA;AA+BhB;AA1BI;EACI,eAAA;AA4BR;AA3BQ;EACI,kBAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;AA6BZ;AA3BY;EACI,gBAAA;EACA,iBAAA;EACA,oBAAA;AA6BhB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n\n$primary-color: #F8ECD1;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n.container {\n    display: flex;\n    flex-wrap: wrap;\n    min-height: 100%;\n\n    .left {\n        background-color: white;\n        flex-grow: 1;\n\n        .title {\n            background-color: $outline-color;\n            position: relative;\n            top: 20vh;\n            \n            display: flex;\n            justify-content: center;\n            align-items: center;\n\n            padding: 1.2rem;\n\n            p {\n                font-size: 4rem;\n                font-family: 'Meow Script', cursive;\n            }\n        }\n    }\n\n    .right {\n        flex-basis: 30%;\n        .text {\n            position: relative;\n            top: 14vh;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            padding: 3rem;\n\n            :first-child {\n                font-weight: 900;\n                font-size: 1.5rem;\n                padding-bottom: 1rem;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -170,9 +171,9 @@ module.exports = function (item) {
 
 /***/ }),
 
-/***/ "./src/styles/main.scss":
+/***/ "./src/styles/home.scss":
 /*!******************************!*\
-  !*** ./src/styles/main.scss ***!
+  !*** ./src/styles/home.scss ***!
   \******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
@@ -192,7 +193,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
 /* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./main.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss");
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./home.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/home.scss");
 
       
       
@@ -214,12 +215,12 @@ options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWi
 options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
 options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
 
-var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
 
 
 
 
-       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_main_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
 
 
 /***/ }),
@@ -528,6 +529,123 @@ function styleTagTransform(css, styleElement) {
 
 module.exports = styleTagTransform;
 
+/***/ }),
+
+/***/ "./src/scripts/base.js":
+/*!*****************************!*\
+  !*** ./src/scripts/base.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "clearChildren": () => (/* binding */ clearChildren),
+/* harmony export */   "generateNavbar": () => (/* binding */ generateNavbar)
+/* harmony export */ });
+const generateNavbar = () => {
+    const navbar = document.createElement("navbar");
+    const ul = document.createElement("ul");
+    const home = document.createElement("li");
+    const menu = document.createElement("li");
+    const about = document.createElement("li");
+    const contact = document.createElement("li");
+
+    navbar.id = 'navbar';
+    ul.id = 'navUl';
+    home.id = 'navHome';
+    menu.id = 'navMenu';
+    about.id = 'navAbout';
+    contact.id = 'navContact';
+
+    navbar.classList.add("navbar");
+
+    home.textContent = "Home";
+    menu.textContent = "Menu";
+    about.textContent = "About";
+    contact.textContent = "Contact";
+
+    navbar.append(ul);
+    ul.append(home);
+    ul.append(menu);
+    ul.append(about);
+    ul.append(contact);
+
+    return navbar;
+}
+
+const clearChildren = container => {
+    while(container.firstChild) container.firstChild.remove();
+}
+
+
+
+/***/ }),
+
+/***/ "./src/scripts/home.js":
+/*!*****************************!*\
+  !*** ./src/scripts/home.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _styles_home_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/home.scss */ "./src/styles/home.scss");
+/* harmony import */ var _assets_images_home_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/home.jpg */ "./src/assets/images/home.jpg");
+
+
+
+const generateHome = (container, nav) => {
+    const leftSection = document.createElement("section");
+    const title = document.createElement("div");
+    const name = document.createElement("p");
+
+    const rightSection = document.createElement("section");
+    const text = document.createElement("div");
+    const textp1 = document.createElement("p");
+    const textp2 = document.createElement("p");
+
+    rightSection.id = "right-section";
+
+    leftSection.classList.add("left");
+    title.classList.add("title");
+
+    rightSection.classList.add("right");
+    text.classList.add("text");
+
+    container.append(leftSection);
+    leftSection.append(title);
+    title.append(name);
+
+    container.append(rightSection);
+    rightSection.append(nav);
+    rightSection.append(text);
+    text.append(textp1);
+    text.append(textp2);
+
+    leftSection.style.backgroundImage = `url('${_assets_images_home_jpg__WEBPACK_IMPORTED_MODULE_1__}')`;
+    leftSection.style.backgroundSize = 'cover';
+
+    name.textContent = "Restaurant Name";
+    textp1.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nulla metus, tristique sed tincidunt et, cursus eu augue. Sed quis pellentesque enim.";
+    textp2.textContent = "Pellentesque eu orci id enim facilisis semper. Fusce laoreet dui ac dapibus congue.";
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateHome);
+
+
+
+/***/ }),
+
+/***/ "./src/assets/images/home.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/home.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "home.jpg";
+
 /***/ })
 
 /******/ 	});
@@ -581,6 +699,18 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -597,6 +727,26 @@ module.exports = styleTagTransform;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -606,14 +756,44 @@ module.exports = styleTagTransform;
 var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/*!******************************!*\
+  !*** ./src/scripts/index.js ***!
+  \******************************/
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _styles_main_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/main.scss */ "./src/styles/main.scss");
+/* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./src/scripts/base.js");
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ "./src/scripts/home.js");
 
 
-console.log('TEST');
+
+const container = document.getElementById("container");
+const navbar = (0,_base_js__WEBPACK_IMPORTED_MODULE_0__.generateNavbar)();
+// generateHome(container, navbar);
+
+
+// const navItems = navbar.querySelectorAll("li");
+// navItems.forEach(item => {
+//     item.addEventListener("click", e => {
+
+//         clearChildren(container);
+
+//         if(item.id === "navHome") generateHome(container, navbar);
+//         else if(item.id === "navMenu") ;
+//         else if(item.id === "navAbout") ;
+//         else if(item.id === "navContact") ;
+        
+//     })
+// });
+
+
+
+
+
+
+
+
+
+
+
 })();
 
 /******/ })()
