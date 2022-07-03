@@ -22,7 +22,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Meow+Script&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container .top > h1 {\n  font-family: \"Meow Script\";\n  background-color: #EEE;\n  font-size: 3rem;\n  padding-left: 2rem;\n}\n.container .top .hero {\n  min-height: 45vh;\n  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;\n}\n.container .top .hero h1 {\n  font-family: \"Meow Script\";\n  text-align: center;\n  font-size: 4rem;\n  background-color: rgba(238, 238, 238, 0.7);\n  position: relative;\n  top: 20vh;\n}\n.container .bot {\n  padding: 2rem 15rem;\n}\n.container .bot p {\n  font-size: 1.4rem;\n  text-align: justify;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/about.scss"],"names":[],"mappings":"AAeA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACbJ;;ADgBA;EACI,aAAA;ACbJ;;ADgBA;EACI,yBAlBY;EAmBZ,cAjBS;ACIb;;ADgBA;EACI,aAAA;EACA,eAAA;ACbJ;ADcI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACZR;ADcQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACbZ;;AA3BQ;EDFJ,0BAAA;EACA,sBASsB;EARtB,eAAA;EACA,kBAAA;ACiCJ;AA9BQ;EACI,gBAAA;EACA,mDAAA;AAgCZ;AA9BY;EACI,0BAAA;EACA,kBAAA;EACA,eAAA;EACA,0CDLA;ECOA,kBAAA;EACA,SAAA;AA+BhB;AA1BI;EACI,mBAAA;AA4BR;AA1BQ;EACI,iBAAA;EACA,mBAAA;AA4BZ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n@mixin header-style {\n    font-family: \"Meow Script\";\n    background-color: $header-background-color;\n    font-size: 3rem;\n    padding-left: 2rem;\n}\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n.container {\n\n    .top {\n        > h1 {\n            @include header-style;\n        }\n\n        .hero {\n            min-height: 45vh;\n            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;\n\n            h1 {\n                font-family: \"Meow Script\";\n                text-align: center;\n                font-size: 4rem;\n                background-color: $outline-color;\n\n                position: relative;\n                top: 20vh;\n            }\n        }\n    }\n\n    .bot {\n        padding: 2rem 15rem;\n        \n        p {\n            font-size: 1.4rem;\n            text-align: justify;\n        }\n    }\n}\n\n\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container[data-page=about] .top > h1 {\n  font-family: \"Meow Script\";\n  background-color: #EEE;\n  font-size: 3rem;\n  padding-left: 2rem;\n}\n.container[data-page=about] .top .hero {\n  min-height: 60vh;\n  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;\n}\n.container[data-page=about] .top .hero h1 {\n  font-family: \"Meow Script\";\n  text-align: center;\n  font-size: 4rem;\n  background-color: rgba(238, 238, 238, 0.7);\n  position: relative;\n  top: 35vh;\n}\n.container[data-page=about] .bot {\n  padding: 2rem 20rem;\n}\n.container[data-page=about] .bot p {\n  font-size: 1.3rem;\n  text-align: justify;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/about.scss"],"names":[],"mappings":"AAeA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACbJ;;ADgBA;EACI,aAAA;ACbJ;;ADgBA;EACI,yBAlBY;EAmBZ,cAjBS;ACIb;;ADgBA;EACI,aAAA;EACA,eAAA;ACbJ;ADcI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACZR;ADcQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACbZ;;AA3BQ;EDFJ,0BAAA;EACA,sBASsB;EARtB,eAAA;EACA,kBAAA;ACiCJ;AA9BQ;EACI,gBAAA;EACA,mDAAA;AAgCZ;AA9BY;EACI,0BAAA;EACA,kBAAA;EACA,eAAA;EACA,0CDLA;ECOA,kBAAA;EACA,SAAA;AA+BhB;AA1BI;EACI,mBAAA;AA4BR;AA1BQ;EACI,iBAAA;EACA,mBAAA;AA4BZ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n@mixin header-style {\n    font-family: \"Meow Script\";\n    background-color: $header-background-color;\n    font-size: 3rem;\n    padding-left: 2rem;\n}\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n.container[data-page=\"about\"] {\n\n    .top {\n        > h1 {\n            @include header-style;\n        }\n\n        .hero {\n            min-height: 60vh;\n            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;\n\n            h1 {\n                font-family: \"Meow Script\";\n                text-align: center;\n                font-size: 4rem;\n                background-color: $outline-color;\n\n                position: relative;\n                top: 35vh;\n            }\n        }\n    }\n\n    .bot {\n        padding: 2rem 20rem;\n        \n        p {\n            font-size: 1.3rem;\n            text-align: justify;\n        }\n    }\n}\n\n\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -693,6 +693,77 @@ module.exports = styleTagTransform;
 
 /***/ }),
 
+/***/ "./src/scripts/about.js":
+/*!******************************!*\
+  !*** ./src/scripts/about.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/about.scss */ "./src/styles/about.scss");
+/* harmony import */ var _assets_images_about_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/about.jpg */ "./src/assets/images/about.jpg");
+
+
+
+const createEssay = (paragraph, num) => {
+    for(let i = 0; i < num; i++) {
+        paragraph.innerHTML += `&nbsp&nbsp&nbsp&nbsp
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Nunc nulla metus, tristique sed tincidunt et, cursus eu augue. 
+            Sed quis pellentesque enim. Pellentesque eu orci id enim
+            facilisis semper. Fusce laoreet dui ac dapibus congue. Donec 
+            aliquam aliquam nibh, quis posuere magna molestie at. Pellentesque 
+            pulvinar sapien nibh, sed hendrerit ligula scelerisque ut. Nulla 
+            pharetra eleifend massa, ornare luctus sem aliquet in. Suspendisse
+            tristique lacus vel dui dictum porttitor. Integer a justo id neque 
+            aliquam mvulputate a nec mi. Praesent dolor felis, malesuada at
+            aliquam sed, interdum vitae augue. Nam posuere tellus ac ante 
+            ultrices, at dapibus felis porta. <br><br>`;
+    }
+}
+
+const generateAbout = (container, nav) => {
+    const topSection = document.createElement("section");
+    const title = document.createElement("h1");
+    const hero = document.createElement("div");
+    const heroText = document.createElement("h1");
+
+    const botSection = document.createElement("section");
+    const paragraph = document.createElement("p");
+
+    topSection.classList.add("top");
+    hero.classList.add("hero");
+    botSection.classList.add("bot");
+
+    topSection.append(title);
+    topSection.append(hero);
+    hero.append(heroText);
+
+    botSection.append(paragraph);
+
+    container.append(nav);
+    container.append(topSection);
+    container.append(botSection);
+    container.setAttribute("data-page", "about");
+
+    hero.style.background = `url('${_assets_images_about_jpg__WEBPACK_IMPORTED_MODULE_1__}')`;
+    hero.style.backgroundSize = 'cover';
+    hero.style.backgroundRepeat = 'no-repeat';
+    title.textContent = "About Us";
+    heroText.innerHTML = "Lorem ipsum dolor sit amet, <br> " +
+                            "consectetur adipiscing elit!";
+    createEssay(paragraph, 4);
+}
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateAbout);
+
+/***/ }),
+
 /***/ "./src/scripts/base.js":
 /*!*****************************!*\
   !*** ./src/scripts/base.js ***!
@@ -869,6 +940,16 @@ const generateMenu = (container, nav) => {
 
 /***/ }),
 
+/***/ "./src/assets/images/about.jpg":
+/*!*************************************!*\
+  !*** ./src/assets/images/about.jpg ***!
+  \*************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "about.jpg";
+
+/***/ }),
+
 /***/ "./src/assets/images/home.jpg":
 /*!************************************!*\
   !*** ./src/assets/images/home.jpg ***!
@@ -994,7 +1075,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./src/scripts/base.js");
 /* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ "./src/scripts/home.js");
 /* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.js */ "./src/scripts/menu.js");
-/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/about.scss */ "./src/styles/about.scss");
+/* harmony import */ var _about_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./about.js */ "./src/scripts/about.js");
+/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/about.scss */ "./src/styles/about.scss");
+
 
 
 
@@ -1003,23 +1086,22 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const container = document.getElementById("container");
-// const navbar = generateNavbar();
-// generateHome(container, navbar);
+const navbar = (0,_base_js__WEBPACK_IMPORTED_MODULE_0__.generateNavbar)();
+(0,_home_js__WEBPACK_IMPORTED_MODULE_1__["default"])(container, navbar);
 
 
-// const navItems = navbar.querySelectorAll("li");
-// navItems.forEach(item => {
-//     item.addEventListener("click", e => {
+const navItems = navbar.querySelectorAll("li");
+navItems.forEach(item => {
+    item.addEventListener("click", e => {
 
-//         clearChildren(container);
+        (0,_base_js__WEBPACK_IMPORTED_MODULE_0__.clearChildren)(container);
 
-//         if(item.id === "navHome") generateHome(container, navbar);
-//         else if(item.id === "navMenu") generateMenu(container, navbar);
-//         else if(item.id === "navAbout") ;
-//         else if(item.id === "navContact") ;
-        
-//     })
-// });
+        if(item.id === "navHome") (0,_home_js__WEBPACK_IMPORTED_MODULE_1__["default"])(container, navbar);
+        else if(item.id === "navMenu") (0,_menu_js__WEBPACK_IMPORTED_MODULE_2__["default"])(container, navbar);
+        else if(item.id === "navAbout") (0,_about_js__WEBPACK_IMPORTED_MODULE_3__["default"])(container, navbar);
+        else if(item.id === "navContact") ;
+    })
+});
 
 
 
