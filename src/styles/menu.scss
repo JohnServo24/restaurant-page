@@ -4,10 +4,7 @@
 .container[data-page="menu"] {
     section {
         header {
-            font-family: "Meow Script";
-            background-color: $header-background-color;
-            font-size: 3rem;
-            padding-left: 2rem;
+            @include header-style;
         }
 
         .grid {

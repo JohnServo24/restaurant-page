@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font
 
+@mixin header-style {
+    font-family: "Meow Script";
+    background-color: $header-background-color;
+    font-size: 3rem;
+    padding-left: 2rem;
+}
 
 $primary-color: #F8ECD1;
 $secondary-color: #DEB6AB;
