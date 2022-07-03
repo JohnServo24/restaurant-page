@@ -1,7 +1,7 @@
 @import "./_base.scss";
 
 
-.container {
+.container[data-page="menu"] {
     section {
         header {
             font-family: "Meow Script";
@@ -14,7 +14,8 @@
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
             padding: 2rem;
-            gap: 1rem;
+            row-gap: 1rem;
+            place-items: center;
 
             .item {
                 max-width: 400px;

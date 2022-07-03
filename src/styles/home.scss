@@ -1,6 +1,6 @@
 @import "./_base.scss";
 
-.container {
+.container[data-page="home"] {
     display: flex;
     flex-wrap: wrap;
     min-height: 100%;

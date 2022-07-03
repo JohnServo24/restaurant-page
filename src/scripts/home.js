@@ -31,6 +31,7 @@ const generateHome = (container, nav) => {
 
     leftSection.style.backgroundImage = `url('${home}')`;
     leftSection.style.backgroundSize = 'cover';
+    container.setAttribute("data-page", "home");
 
     name.textContent = "Restaurant Name";
     textp1.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nulla metus, tristique sed tincidunt et, cursus eu augue. Sed quis pellentesque enim.";
