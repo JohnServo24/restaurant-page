@@ -2,6 +2,33 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/about.scss":
+/*!************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/about.scss ***!
+  \************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Meow+Script&display=swap);"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container .top > h1 {\n  font-family: \"Meow Script\";\n  background-color: #EEE;\n  font-size: 3rem;\n  padding-left: 2rem;\n}\n.container .top .hero {\n  min-height: 45vh;\n  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;\n}\n.container .top .hero h1 {\n  font-family: \"Meow Script\";\n  text-align: center;\n  font-size: 4rem;\n  background-color: rgba(238, 238, 238, 0.7);\n  position: relative;\n  top: 20vh;\n}\n.container .bot {\n  padding: 2rem 15rem;\n}\n.container .bot p {\n  font-size: 1.4rem;\n  text-align: justify;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/about.scss"],"names":[],"mappings":"AAeA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACbJ;;ADgBA;EACI,aAAA;ACbJ;;ADgBA;EACI,yBAlBY;EAmBZ,cAjBS;ACIb;;ADgBA;EACI,aAAA;EACA,eAAA;ACbJ;ADcI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACZR;ADcQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACbZ;;AA3BQ;EDFJ,0BAAA;EACA,sBASsB;EARtB,eAAA;EACA,kBAAA;ACiCJ;AA9BQ;EACI,gBAAA;EACA,mDAAA;AAgCZ;AA9BY;EACI,0BAAA;EACA,kBAAA;EACA,eAAA;EACA,0CDLA;ECOA,kBAAA;EACA,SAAA;AA+BhB;AA1BI;EACI,mBAAA;AA4BR;AA1BQ;EACI,iBAAA;EACA,mBAAA;AA4BZ","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n@mixin header-style {\n    font-family: \"Meow Script\";\n    background-color: $header-background-color;\n    font-size: 3rem;\n    padding-left: 2rem;\n}\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n.container {\n\n    .top {\n        > h1 {\n            @include header-style;\n        }\n\n        .hero {\n            min-height: 45vh;\n            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;\n\n            h1 {\n                font-family: \"Meow Script\";\n                text-align: center;\n                font-size: 4rem;\n                background-color: $outline-color;\n\n                position: relative;\n                top: 20vh;\n            }\n        }\n    }\n\n    .bot {\n        padding: 2rem 15rem;\n        \n        p {\n            font-size: 1.4rem;\n            text-align: justify;\n        }\n    }\n}\n\n\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/home.scss":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/home.scss ***!
@@ -22,7 +49,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Meow+Script&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container[data-page=home] {\n  display: flex;\n  flex-wrap: wrap;\n  min-height: 100%;\n}\n.container[data-page=home] .left {\n  background-color: white;\n  flex-grow: 1;\n}\n.container[data-page=home] .left .title {\n  background-color: rgba(238, 238, 238, 0.7);\n  position: relative;\n  top: 20vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 1.2rem;\n}\n.container[data-page=home] .left .title p {\n  font-size: 4rem;\n  font-family: \"Meow Script\", cursive;\n}\n.container[data-page=home] .right {\n  flex-basis: 30%;\n}\n.container[data-page=home] .right .text {\n  position: relative;\n  top: 14vh;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 3rem;\n}\n.container[data-page=home] .right .text :first-child {\n  font-weight: 900;\n  font-size: 1.5rem;\n  padding-bottom: 1rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/home.scss"],"names":[],"mappings":"AASA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACPJ;;ADUA;EACI,aAAA;ACPJ;;ADUA;EACI,yBAlBY;EAmBZ,cAjBS;ACUb;;ADUA;EACI,aAAA;EACA,eAAA;ACPJ;ADQI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACNR;ADQQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACPZ;;AA9BA;EACI,aAAA;EACA,eAAA;EACA,gBAAA;AAiCJ;AA/BI;EACI,uBAAA;EACA,YAAA;AAiCR;AA/BQ;EACI,0CDNI;ECOJ,kBAAA;EACA,SAAA;EAEA,aAAA;EACA,uBAAA;EACA,mBAAA;EAEA,eAAA;AA+BZ;AA7BY;EACI,eAAA;EACA,mCAAA;AA+BhB;AA1BI;EACI,eAAA;AA4BR;AA3BQ;EACI,kBAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;AA6BZ;AA3BY;EACI,gBAAA;EACA,iBAAA;EACA,oBAAA;AA6BhB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n.container[data-page=\"home\"] {\n    display: flex;\n    flex-wrap: wrap;\n    min-height: 100%;\n\n    .left {\n        background-color: white;\n        flex-grow: 1;\n\n        .title {\n            background-color: $outline-color;\n            position: relative;\n            top: 20vh;\n            \n            display: flex;\n            justify-content: center;\n            align-items: center;\n\n            padding: 1.2rem;\n\n            p {\n                font-size: 4rem;\n                font-family: 'Meow Script', cursive;\n            }\n        }\n    }\n\n    .right {\n        flex-basis: 30%;\n        .text {\n            position: relative;\n            top: 14vh;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            padding: 3rem;\n\n            :first-child {\n                font-weight: 900;\n                font-size: 1.5rem;\n                padding-bottom: 1rem;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container[data-page=home] {\n  display: flex;\n  flex-wrap: wrap;\n  min-height: 100%;\n}\n.container[data-page=home] .left {\n  background-color: white;\n  flex-grow: 1;\n}\n.container[data-page=home] .left .title {\n  background-color: rgba(238, 238, 238, 0.7);\n  position: relative;\n  top: 20vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 1.2rem;\n}\n.container[data-page=home] .left .title p {\n  font-size: 4rem;\n  font-family: \"Meow Script\", cursive;\n}\n.container[data-page=home] .right {\n  flex-basis: 30%;\n}\n.container[data-page=home] .right .text {\n  position: relative;\n  top: 14vh;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 3rem;\n}\n.container[data-page=home] .right .text :first-child {\n  font-weight: 900;\n  font-size: 1.5rem;\n  padding-bottom: 1rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/home.scss"],"names":[],"mappings":"AAeA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACbJ;;ADgBA;EACI,aAAA;ACbJ;;ADgBA;EACI,yBAlBY;EAmBZ,cAjBS;ACIb;;ADgBA;EACI,aAAA;EACA,eAAA;ACbJ;ADcI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACZR;ADcQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACbZ;;AA9BA;EACI,aAAA;EACA,eAAA;EACA,gBAAA;AAiCJ;AA/BI;EACI,uBAAA;EACA,YAAA;AAiCR;AA/BQ;EACI,0CAAA;EACA,kBAAA;EACA,SAAA;EAEA,aAAA;EACA,uBAAA;EACA,mBAAA;EAEA,eAAA;AA+BZ;AA7BY;EACI,eAAA;EACA,mCAAA;AA+BhB;AA1BI;EACI,eAAA;AA4BR;AA3BQ;EACI,kBAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;AA6BZ;AA3BY;EACI,gBAAA;EACA,iBAAA;EACA,oBAAA;AA6BhB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n@mixin header-style {\n    font-family: \"Meow Script\";\n    background-color: $header-background-color;\n    font-size: 3rem;\n    padding-left: 2rem;\n}\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n.container[data-page=\"home\"] {\n    display: flex;\n    flex-wrap: wrap;\n    min-height: 100%;\n\n    .left {\n        background-color: white;\n        flex-grow: 1;\n\n        .title {\n            background-color: $outline-color;\n            position: relative;\n            top: 20vh;\n            \n            display: flex;\n            justify-content: center;\n            align-items: center;\n\n            padding: 1.2rem;\n\n            p {\n                font-size: 4rem;\n                font-family: 'Meow Script', cursive;\n            }\n        }\n    }\n\n    .right {\n        flex-basis: 30%;\n        .text {\n            position: relative;\n            top: 14vh;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            padding: 3rem;\n\n            :first-child {\n                font-weight: 900;\n                font-size: 1.5rem;\n                padding-bottom: 1rem;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -49,7 +76,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Meow+Script&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container[data-page=menu] section header {\n  font-family: \"Meow Script\";\n  background-color: #EEE;\n  font-size: 3rem;\n  padding-left: 2rem;\n}\n.container[data-page=menu] section .grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));\n  padding: 2rem;\n  row-gap: 1rem;\n  place-items: center;\n}\n.container[data-page=menu] section .grid .item {\n  max-width: 400px;\n  min-height: 220px;\n  border-radius: 15px;\n  background-color: #DEB6AB;\n  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n  display: flex;\n}\n.container[data-page=menu] section .grid .item .img {\n  border-top-left-radius: 15px;\n  border-bottom-left-radius: 15px;\n  flex-basis: 40vw;\n  background-color: white;\n}\n.container[data-page=menu] section .grid .item .text {\n  padding: 1rem;\n}\n.container[data-page=menu] section .grid .item .text :first-child {\n  text-align: center;\n  padding-bottom: 0.5rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/menu.scss"],"names":[],"mappings":"AASA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACPJ;;ADUA;EACI,aAAA;ACPJ;;ADUA;EACI,yBAlBY;EAmBZ,cAjBS;ACUb;;ADUA;EACI,aAAA;EACA,eAAA;ACPJ;ADQI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACNR;ADQQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACPZ;;AA3BQ;EACI,0BAAA;EACA,sBAAA;EACA,eAAA;EACA,kBAAA;AA8BZ;AA3BQ;EACI,aAAA;EACA,4DAAA;EACA,aAAA;EACA,aAAA;EACA,mBAAA;AA6BZ;AA3BY;EACI,gBAAA;EACA,iBAAA;EACA,mBAAA;EACA,yBDnBE;ECoBF,2CAAA;EAEA,aAAA;AA4BhB;AA1BgB;EACI,4BAAA;EACA,+BAAA;EACA,gBAAA;EACA,uBAAA;AA4BpB;AAzBgB;EACI,aAAA;AA2BpB;AAzBoB;EACI,kBAAA;EACA,sBAAA;AA2BxB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n\n.container[data-page=\"menu\"] {\n    section {\n        header {\n            font-family: \"Meow Script\";\n            background-color: $header-background-color;\n            font-size: 3rem;\n            padding-left: 2rem;\n        }\n\n        .grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));\n            padding: 2rem;\n            row-gap: 1rem;\n            place-items: center;\n\n            .item {\n                max-width: 400px;\n                min-height: 220px;\n                border-radius: 15px;\n                background-color: $secondary-color;\n                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n\n                display: flex;\n\n                .img {\n                    border-top-left-radius: 15px;\n                    border-bottom-left-radius: 15px;\n                    flex-basis: 40vw;\n                    background-color: white;\n                }\n\n                .text {\n                    padding: 1rem;\n\n                    :first-child {\n                        text-align: center;\n                        padding-bottom: 0.5rem;\n                    }\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container[data-page=menu] section header {\n  font-family: \"Meow Script\";\n  background-color: #EEE;\n  font-size: 3rem;\n  padding-left: 2rem;\n}\n.container[data-page=menu] section .grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));\n  padding: 2rem;\n  row-gap: 1rem;\n  place-items: center;\n}\n.container[data-page=menu] section .grid .item {\n  max-width: 400px;\n  min-height: 220px;\n  border-radius: 15px;\n  background-color: #DEB6AB;\n  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n  display: flex;\n}\n.container[data-page=menu] section .grid .item .img {\n  border-top-left-radius: 15px;\n  border-bottom-left-radius: 15px;\n  flex-basis: 40vw;\n  background-color: white;\n}\n.container[data-page=menu] section .grid .item .text {\n  padding: 1rem;\n}\n.container[data-page=menu] section .grid .item .text :first-child {\n  text-align: center;\n  padding-bottom: 0.5rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/menu.scss"],"names":[],"mappings":"AAeA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACbJ;;ADgBA;EACI,aAAA;ACbJ;;ADgBA;EACI,yBAlBY;EAmBZ,cAjBS;ACIb;;ADgBA;EACI,aAAA;EACA,eAAA;ACbJ;ADcI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACZR;ADcQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACbZ;;AA3BQ;EDFJ,0BAAA;EACA,sBASsB;EARtB,eAAA;EACA,kBAAA;ACiCJ;AA9BQ;EACI,aAAA;EACA,4DAAA;EACA,aAAA;EACA,aAAA;EACA,mBAAA;AAgCZ;AA9BY;EACI,gBAAA;EACA,iBAAA;EACA,mBAAA;EACA,yBDVE;ECWF,2CAAA;EAEA,aAAA;AA+BhB;AA7BgB;EACI,4BAAA;EACA,+BAAA;EACA,gBAAA;EACA,uBAAA;AA+BpB;AA5BgB;EACI,aAAA;AA8BpB;AA5BoB;EACI,kBAAA;EACA,sBAAA;AA8BxB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n@mixin header-style {\n    font-family: \"Meow Script\";\n    background-color: $header-background-color;\n    font-size: 3rem;\n    padding-left: 2rem;\n}\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n\n.container[data-page=\"menu\"] {\n    section {\n        header {\n            @include header-style;\n        }\n\n        .grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));\n            padding: 2rem;\n            row-gap: 1rem;\n            place-items: center;\n\n            .item {\n                max-width: 400px;\n                min-height: 220px;\n                border-radius: 15px;\n                background-color: $secondary-color;\n                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n\n                display: flex;\n\n                .img {\n                    border-top-left-radius: 15px;\n                    border-bottom-left-radius: 15px;\n                    flex-basis: 40vw;\n                    background-color: white;\n                }\n\n                .text {\n                    padding: 1rem;\n\n                    :first-child {\n                        text-align: center;\n                        padding-bottom: 0.5rem;\n                    }\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -195,6 +222,60 @@ module.exports = function (item) {
 
   return [content].join("\n");
 };
+
+/***/ }),
+
+/***/ "./src/styles/about.scss":
+/*!*******************************!*\
+  !*** ./src/styles/about.scss ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_about_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./about.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/about.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_about_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_about_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_about_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_about_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
 
 /***/ }),
 
@@ -913,29 +994,32 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./src/scripts/base.js");
 /* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ "./src/scripts/home.js");
 /* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.js */ "./src/scripts/menu.js");
+/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/about.scss */ "./src/styles/about.scss");
+
+
 
 
 
 
 
 const container = document.getElementById("container");
-const navbar = (0,_base_js__WEBPACK_IMPORTED_MODULE_0__.generateNavbar)();
-(0,_home_js__WEBPACK_IMPORTED_MODULE_1__["default"])(container, navbar);
+// const navbar = generateNavbar();
+// generateHome(container, navbar);
 
 
-const navItems = navbar.querySelectorAll("li");
-navItems.forEach(item => {
-    item.addEventListener("click", e => {
+// const navItems = navbar.querySelectorAll("li");
+// navItems.forEach(item => {
+//     item.addEventListener("click", e => {
 
-        (0,_base_js__WEBPACK_IMPORTED_MODULE_0__.clearChildren)(container);
+//         clearChildren(container);
 
-        if(item.id === "navHome") (0,_home_js__WEBPACK_IMPORTED_MODULE_1__["default"])(container, navbar);
-        else if(item.id === "navMenu") (0,_menu_js__WEBPACK_IMPORTED_MODULE_2__["default"])(container, navbar);
-        else if(item.id === "navAbout") ;
-        else if(item.id === "navContact") ;
+//         if(item.id === "navHome") generateHome(container, navbar);
+//         else if(item.id === "navMenu") generateMenu(container, navbar);
+//         else if(item.id === "navAbout") ;
+//         else if(item.id === "navContact") ;
         
-    })
-});
+//     })
+// });
 
 
 
