@@ -1,5 +1,7 @@
 import {generateNavbar, clearChildren} from './base.js';
-import generateHome from './home.js';
+// import generateHome from './home.js';
+
+import '../styles/menu.scss';
 
 const container = document.getElementById("container");
 const navbar = generateNavbar();

@@ -1,0 +1,46 @@
+@import "./_base.scss";
+
+
+.container {
+    section {
+        header {
+            font-family: "Meow Script";
+            background-color: $header-background-color;
+            font-size: 3rem;
+            padding-left: 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            padding: 2rem;
+            gap: 1rem;
+
+            .item {
+                max-width: 400px;
+                min-height: 220px;
+                border-radius: 15px;
+                background-color: $secondary-color;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+                display: flex;
+
+                .img {
+                    border-top-left-radius: 15px;
+                    border-bottom-left-radius: 15px;
+                    flex-basis: 40vw;
+                    background-color: white;
+                }
+
+                .text {
+                    padding: 1rem;
+
+                    :first-child {
+                        text-align: center;
+                        padding-bottom: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
