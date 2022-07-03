@@ -1,6 +1,6 @@
 @import "./_base.scss";
 
-.container {
+.container[data-page="about"] {
 
     .top {
         > h1 {
@@ -8,7 +8,7 @@
         }
 
         .hero {
-            min-height: 45vh;
+            min-height: 60vh;
             box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
             h1 {
@@ -18,16 +18,16 @@
                 background-color: $outline-color;
 
                 position: relative;
-                top: 20vh;
+                top: 35vh;
             }
         }
     }
 
     .bot {
-        padding: 2rem 15rem;
+        padding: 2rem 20rem;
         
         p {
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             text-align: justify;
         }
     }
