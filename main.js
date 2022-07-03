@@ -2,6 +2,33 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/home.scss":
+/*!***********************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/home.scss ***!
+  \***********************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/sourceMaps.js */ "./node_modules/css-loader/dist/runtime/sourceMaps.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Meow+Script&display=swap);"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container[data-page=home] {\n  display: flex;\n  flex-wrap: wrap;\n  min-height: 100%;\n}\n.container[data-page=home] .left {\n  background-color: white;\n  flex-grow: 1;\n}\n.container[data-page=home] .left .title {\n  background-color: rgba(238, 238, 238, 0.7);\n  position: relative;\n  top: 20vh;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  padding: 1.2rem;\n}\n.container[data-page=home] .left .title p {\n  font-size: 4rem;\n  font-family: \"Meow Script\", cursive;\n}\n.container[data-page=home] .right {\n  flex-basis: 30%;\n}\n.container[data-page=home] .right .text {\n  position: relative;\n  top: 14vh;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  padding: 3rem;\n}\n.container[data-page=home] .right .text :first-child {\n  font-weight: 900;\n  font-size: 1.5rem;\n  padding-bottom: 1rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/home.scss"],"names":[],"mappings":"AASA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACPJ;;ADUA;EACI,aAAA;ACPJ;;ADUA;EACI,yBAlBY;EAmBZ,cAjBS;ACUb;;ADUA;EACI,aAAA;EACA,eAAA;ACPJ;ADQI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACNR;ADQQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACPZ;;AA9BA;EACI,aAAA;EACA,eAAA;EACA,gBAAA;AAiCJ;AA/BI;EACI,uBAAA;EACA,YAAA;AAiCR;AA/BQ;EACI,0CDNI;ECOJ,kBAAA;EACA,SAAA;EAEA,aAAA;EACA,uBAAA;EACA,mBAAA;EAEA,eAAA;AA+BZ;AA7BY;EACI,eAAA;EACA,mCAAA;AA+BhB;AA1BI;EACI,eAAA;AA4BR;AA3BQ;EACI,kBAAA;EACA,SAAA;EACA,aAAA;EACA,sBAAA;EACA,uBAAA;EACA,mBAAA;EACA,aAAA;AA6BZ;AA3BY;EACI,gBAAA;EACA,iBAAA;EACA,oBAAA;AA6BhB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n.container[data-page=\"home\"] {\n    display: flex;\n    flex-wrap: wrap;\n    min-height: 100%;\n\n    .left {\n        background-color: white;\n        flex-grow: 1;\n\n        .title {\n            background-color: $outline-color;\n            position: relative;\n            top: 20vh;\n            \n            display: flex;\n            justify-content: center;\n            align-items: center;\n\n            padding: 1.2rem;\n\n            p {\n                font-size: 4rem;\n                font-family: 'Meow Script', cursive;\n            }\n        }\n    }\n\n    .right {\n        flex-basis: 30%;\n        .text {\n            position: relative;\n            top: 14vh;\n            display: flex;\n            flex-direction: column;\n            justify-content: center;\n            align-items: center;\n            padding: 3rem;\n\n            :first-child {\n                font-weight: 900;\n                font-size: 1.5rem;\n                padding-bottom: 1rem;\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/menu.scss":
 /*!***********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/menu.scss ***!
@@ -22,7 +49,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Meow+Script&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container section header {\n  font-family: \"Meow Script\";\n  background-color: #EEE;\n  font-size: 3rem;\n  padding-left: 2rem;\n}\n.container section .grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));\n  padding: 2rem;\n  gap: 1rem;\n}\n.container section .grid .item {\n  max-width: 400px;\n  min-height: 220px;\n  border-radius: 15px;\n  background-color: #DEB6AB;\n  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n  display: flex;\n}\n.container section .grid .item .img {\n  border-top-left-radius: 15px;\n  border-bottom-left-radius: 15px;\n  flex-basis: 40vw;\n  background-color: white;\n}\n.container section .grid .item .text {\n  padding: 1rem;\n}\n.container section .grid .item .text :first-child {\n  text-align: center;\n  padding-bottom: 0.5rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/menu.scss"],"names":[],"mappings":"AASA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACPJ;;ADUA;EACI,aAAA;ACPJ;;ADUA;EACI,yBAlBY;EAmBZ,cAjBS;ACUb;;ADUA;EACI,aAAA;EACA,eAAA;ACPJ;ADQI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACNR;ADQQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACPZ;;AA3BQ;EACI,0BAAA;EACA,sBAAA;EACA,eAAA;EACA,kBAAA;AA8BZ;AA3BQ;EACI,aAAA;EACA,4DAAA;EACA,aAAA;EACA,SAAA;AA6BZ;AA3BY;EACI,gBAAA;EACA,iBAAA;EACA,mBAAA;EACA,yBDlBE;ECmBF,2CAAA;EAEA,aAAA;AA4BhB;AA1BgB;EACI,4BAAA;EACA,+BAAA;EACA,gBAAA;EACA,uBAAA;AA4BpB;AAzBgB;EACI,aAAA;AA2BpB;AAzBoB;EACI,kBAAA;EACA,sBAAA;AA2BxB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n\n.container {\n    section {\n        header {\n            font-family: \"Meow Script\";\n            background-color: $header-background-color;\n            font-size: 3rem;\n            padding-left: 2rem;\n        }\n\n        .grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));\n            padding: 2rem;\n            gap: 1rem;\n\n            .item {\n                max-width: 400px;\n                min-height: 220px;\n                border-radius: 15px;\n                background-color: $secondary-color;\n                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n\n                display: flex;\n\n                .img {\n                    border-top-left-radius: 15px;\n                    border-bottom-left-radius: 15px;\n                    flex-basis: 40vw;\n                    background-color: white;\n                }\n\n                .text {\n                    padding: 1rem;\n\n                    :first-child {\n                        text-align: center;\n                        padding-bottom: 0.5rem;\n                    }\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n  font-family: arial;\n}\n\nhtml, body {\n  height: 100vh;\n}\n\nbody {\n  background-color: #F8ECD1;\n  color: #85586F;\n}\n\n.navbar {\n  display: flex;\n  min-height: 8vh;\n}\n.navbar ul {\n  display: flex;\n  justify-content: space-evenly;\n  align-items: center;\n  width: 100%;\n}\n.navbar ul li {\n  list-style-type: none;\n  font-weight: 900;\n  font-size: 1.2rem;\n  cursor: pointer;\n}\n\n.container[data-page=menu] section header {\n  font-family: \"Meow Script\";\n  background-color: #EEE;\n  font-size: 3rem;\n  padding-left: 2rem;\n}\n.container[data-page=menu] section .grid {\n  display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));\n  padding: 2rem;\n  row-gap: 1rem;\n  place-items: center;\n}\n.container[data-page=menu] section .grid .item {\n  max-width: 400px;\n  min-height: 220px;\n  border-radius: 15px;\n  background-color: #DEB6AB;\n  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n  display: flex;\n}\n.container[data-page=menu] section .grid .item .img {\n  border-top-left-radius: 15px;\n  border-bottom-left-radius: 15px;\n  flex-basis: 40vw;\n  background-color: white;\n}\n.container[data-page=menu] section .grid .item .text {\n  padding: 1rem;\n}\n.container[data-page=menu] section .grid .item .text :first-child {\n  text-align: center;\n  padding-bottom: 0.5rem;\n}", "",{"version":3,"sources":["webpack://./src/styles/_base.scss","webpack://./src/styles/menu.scss"],"names":[],"mappings":"AASA;EACI,SAAA;EACA,UAAA;EACA,sBAAA;EACA,kBAAA;ACPJ;;ADUA;EACI,aAAA;ACPJ;;ADUA;EACI,yBAlBY;EAmBZ,cAjBS;ACUb;;ADUA;EACI,aAAA;EACA,eAAA;ACPJ;ADQI;EACI,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,WAAA;ACNR;ADQQ;EACI,qBAAA;EACA,gBAAA;EACA,iBAAA;EAEA,eAAA;ACPZ;;AA3BQ;EACI,0BAAA;EACA,sBAAA;EACA,eAAA;EACA,kBAAA;AA8BZ;AA3BQ;EACI,aAAA;EACA,4DAAA;EACA,aAAA;EACA,aAAA;EACA,mBAAA;AA6BZ;AA3BY;EACI,gBAAA;EACA,iBAAA;EACA,mBAAA;EACA,yBDnBE;ECoBF,2CAAA;EAEA,aAAA;AA4BhB;AA1BgB;EACI,4BAAA;EACA,+BAAA;EACA,gBAAA;EACA,uBAAA;AA4BpB;AAzBgB;EACI,aAAA;AA2BpB;AAzBoB;EACI,kBAAA;EACA,sBAAA;AA2BxB","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap'); // Script font\n\n\n$primary-color: #F8ECD1;\n$secondary-color: #DEB6AB;\n$font-color: #85586F;\n$outline-color: rgba(238, 238, 238, 0.7);\n$header-background-color: #EEE;\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    font-family: arial;\n}\n\nhtml, body {\n    height: 100vh;\n}\n\nbody {\n    background-color: $primary-color;\n    color: $font-color;\n}\n\n.navbar {\n    display: flex;\n    min-height: 8vh;\n    ul {\n        display: flex;\n        justify-content: space-evenly;\n        align-items: center;\n        width: 100%;\n\n        li {\n            list-style-type: none;\n            font-weight: 900;\n            font-size: 1.2rem;\n\n            cursor: pointer;\n        }\n    }\n}\n","@import \"./_base.scss\";\n\n\n.container[data-page=\"menu\"] {\n    section {\n        header {\n            font-family: \"Meow Script\";\n            background-color: $header-background-color;\n            font-size: 3rem;\n            padding-left: 2rem;\n        }\n\n        .grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));\n            padding: 2rem;\n            row-gap: 1rem;\n            place-items: center;\n\n            .item {\n                max-width: 400px;\n                min-height: 220px;\n                border-radius: 15px;\n                background-color: $secondary-color;\n                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;\n\n                display: flex;\n\n                .img {\n                    border-top-left-radius: 15px;\n                    border-bottom-left-radius: 15px;\n                    flex-basis: 40vw;\n                    background-color: white;\n                }\n\n                .text {\n                    padding: 1rem;\n\n                    :first-child {\n                        text-align: center;\n                        padding-bottom: 0.5rem;\n                    }\n                }\n            }\n        }\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -168,6 +195,60 @@ module.exports = function (item) {
 
   return [content].join("\n");
 };
+
+/***/ }),
+
+/***/ "./src/styles/home.scss":
+/*!******************************!*\
+  !*** ./src/styles/home.scss ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleDomAPI.js */ "./node_modules/style-loader/dist/runtime/styleDomAPI.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertBySelector.js */ "./node_modules/style-loader/dist/runtime/insertBySelector.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js */ "./node_modules/style-loader/dist/runtime/setAttributesWithoutAttributes.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/insertStyleElement.js */ "./node_modules/style-loader/dist/runtime/insertStyleElement.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! !../../node_modules/style-loader/dist/runtime/styleTagTransform.js */ "./node_modules/style-loader/dist/runtime/styleTagTransform.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! !!../../node_modules/css-loader/dist/cjs.js!../../node_modules/sass-loader/dist/cjs.js!./home.scss */ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/home.scss");
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var options = {};
+
+options.styleTagTransform = (_node_modules_style_loader_dist_runtime_styleTagTransform_js__WEBPACK_IMPORTED_MODULE_5___default());
+options.setAttributes = (_node_modules_style_loader_dist_runtime_setAttributesWithoutAttributes_js__WEBPACK_IMPORTED_MODULE_3___default());
+
+      options.insert = _node_modules_style_loader_dist_runtime_insertBySelector_js__WEBPACK_IMPORTED_MODULE_2___default().bind(null, "head");
+    
+options.domAPI = (_node_modules_style_loader_dist_runtime_styleDomAPI_js__WEBPACK_IMPORTED_MODULE_1___default());
+options.insertStyleElement = (_node_modules_style_loader_dist_runtime_insertStyleElement_js__WEBPACK_IMPORTED_MODULE_4___default());
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__["default"], options);
+
+
+
+
+       /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__["default"] && _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals ? _node_modules_css_loader_dist_cjs_js_node_modules_sass_loader_dist_cjs_js_home_scss__WEBPACK_IMPORTED_MODULE_6__["default"].locals : undefined);
+
 
 /***/ }),
 
@@ -579,6 +660,142 @@ const clearChildren = container => {
 
 
 
+/***/ }),
+
+/***/ "./src/scripts/home.js":
+/*!*****************************!*\
+  !*** ./src/scripts/home.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _styles_home_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/home.scss */ "./src/styles/home.scss");
+/* harmony import */ var _assets_images_home_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../assets/images/home.jpg */ "./src/assets/images/home.jpg");
+
+
+
+const generateHome = (container, nav) => {
+    const leftSection = document.createElement("section");
+    const title = document.createElement("div");
+    const name = document.createElement("p");
+
+    const rightSection = document.createElement("section");
+    const text = document.createElement("div");
+    const textp1 = document.createElement("p");
+    const textp2 = document.createElement("p");
+
+    rightSection.id = "right-section";
+
+    leftSection.classList.add("left");
+    title.classList.add("title");
+
+    rightSection.classList.add("right");
+    text.classList.add("text");
+
+    container.append(leftSection);
+    leftSection.append(title);
+    title.append(name);
+
+    container.append(rightSection);
+    rightSection.append(nav);
+    rightSection.append(text);
+    text.append(textp1);
+    text.append(textp2);
+
+    leftSection.style.backgroundImage = `url('${_assets_images_home_jpg__WEBPACK_IMPORTED_MODULE_1__}')`;
+    leftSection.style.backgroundSize = 'cover';
+    container.setAttribute("data-page", "home");
+
+    name.textContent = "Restaurant Name";
+    textp1.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nulla metus, tristique sed tincidunt et, cursus eu augue. Sed quis pellentesque enim.";
+    textp2.textContent = "Pellentesque eu orci id enim facilisis semper. Fusce laoreet dui ac dapibus congue.";
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateHome);
+
+
+
+/***/ }),
+
+/***/ "./src/scripts/menu.js":
+/*!*****************************!*\
+  !*** ./src/scripts/menu.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _styles_menu_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/menu.scss */ "./src/styles/menu.scss");
+
+
+const generateGrid = (section, name, noOfItems) => {
+    const header = document.createElement("header");
+    const grid = document.createElement("grid");
+    grid.classList.add("grid");
+
+    header.textContent = name;
+
+    for(let i = 0; i < noOfItems; i++) {
+        const item = document.createElement("div")
+        const img = document.createElement("div");
+        const text = document.createElement("div");
+        const foodName = document.createElement("h1");
+        const desc = document.createElement("p");
+
+        item.classList.add("item");
+        img.classList.add("img");
+        text.classList.add("text");
+
+        grid.append(item);
+        item.append(img);
+        item.append(text);
+        text.append(foodName);
+        text.append(desc);
+
+        foodName.textContent = "FOOD NAME";
+        desc.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nulla metus, " +
+                        " tristique sed tincidunt et, cursus eu augue. Sed quis pellentesque enim. " +
+                        " Pellentesque eu orci id enim facilisis semper.";
+    }
+
+    section.append(header);
+    section.append(grid);
+}
+
+const generateMenu = (container, nav) => {
+    container.append(nav);
+    container.setAttribute("data-page", "menu");
+
+    const bfSection = document.createElement("section");
+    const lSection = document.createElement("section");
+    const dSection = document.createElement("section");
+
+    generateGrid(bfSection, "Breakfast", 6);
+    generateGrid(lSection, "Lunch", 6);
+    generateGrid(dSection, "Dinner", 6);
+
+    container.append(bfSection);
+    container.append(lSection);
+    container.append(dSection);
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (generateMenu);
+
+/***/ }),
+
+/***/ "./src/assets/images/home.jpg":
+/*!************************************!*\
+  !*** ./src/assets/images/home.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+module.exports = __webpack_require__.p + "home.jpg";
+
 /***/ })
 
 /******/ 	});
@@ -632,6 +849,18 @@ const clearChildren = container => {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -648,6 +877,26 @@ const clearChildren = container => {
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	(() => {
 /******/ 		__webpack_require__.nc = undefined;
@@ -662,30 +911,31 @@ var __webpack_exports__ = {};
   \******************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _base_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./base.js */ "./src/scripts/base.js");
-/* harmony import */ var _styles_menu_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/menu.scss */ "./src/styles/menu.scss");
+/* harmony import */ var _home_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home.js */ "./src/scripts/home.js");
+/* harmony import */ var _menu_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu.js */ "./src/scripts/menu.js");
 
-// import generateHome from './home.js';
+
 
 
 
 const container = document.getElementById("container");
 const navbar = (0,_base_js__WEBPACK_IMPORTED_MODULE_0__.generateNavbar)();
-// generateHome(container, navbar);
+(0,_home_js__WEBPACK_IMPORTED_MODULE_1__["default"])(container, navbar);
 
 
-// const navItems = navbar.querySelectorAll("li");
-// navItems.forEach(item => {
-//     item.addEventListener("click", e => {
+const navItems = navbar.querySelectorAll("li");
+navItems.forEach(item => {
+    item.addEventListener("click", e => {
 
-//         clearChildren(container);
+        (0,_base_js__WEBPACK_IMPORTED_MODULE_0__.clearChildren)(container);
 
-//         if(item.id === "navHome") generateHome(container, navbar);
-//         else if(item.id === "navMenu") ;
-//         else if(item.id === "navAbout") ;
-//         else if(item.id === "navContact") ;
+        if(item.id === "navHome") (0,_home_js__WEBPACK_IMPORTED_MODULE_1__["default"])(container, navbar);
+        else if(item.id === "navMenu") (0,_menu_js__WEBPACK_IMPORTED_MODULE_2__["default"])(container, navbar);
+        else if(item.id === "navAbout") ;
+        else if(item.id === "navContact") ;
         
-//     })
-// });
+    })
+});
 
 
 
